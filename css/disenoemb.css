@@ -1,0 +1,73 @@
+@font-face {
+    font-family: quicksand;
+    src: url("../style/Quicksand_Bold.otf");
+}
+
+@font-face {
+    font-family: walkway;
+    src: url("../style/Walkway\ Bold.ttf");
+}
+
+body{
+    background-image: url("../images/mcea2.png");
+    background-repeat: no-repeat;
+    background-position: 98% 5%;
+}
+
+.tit{
+    margin-top: 50px;
+}
+
+.titu{
+    font-size: 6em;
+    text-align: center;
+    font-family: quicksand;
+    background-color: rgba(236, 167, 144, 0.187);
+
+}
+.subt{
+    font-family: walkway;
+    font-size: 2em;
+}
+
+.txt{
+    margin-top: 30px;
+}
+
+.logo{
+    width: 8%;
+}
+
+.infografia{
+        width: auto;
+        max-width: 540px;
+        height: auto;
+        max-height: 675px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        padding: 10px;
+    }
+    
+aside{
+   background-color: rgb(177, 66, 209);
+    width: 5%;
+    height: auto;
+    float: right;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    border-radius: 10px;
+    }
+
+    .redes{
+        padding: 5px 10px 5px 15px;
+        margin: auto;
+        display: block;
+    }
+
+    .redes img{
+        width: 50px;
+    }

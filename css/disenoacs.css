@@ -1,0 +1,56 @@
+@font-face {
+    font-family: quicksand;
+    src: url("../style/Quicksand_Bold.otf");
+}
+
+@font-face {
+    font-family: walkway;
+    src: url("../style/Walkway\ Bold.ttf");
+}
+
+body{
+    background-image: url("../images/mcea2.png");
+    background-repeat: no-repeat;
+    background-position: 98% 13%;
+}
+
+.tit{
+    margin-top: 50px;
+}
+
+.titu{
+    font-size: 6em;
+    text-align: center;
+    font-family: quicksand;
+    background-color: rgba(236, 167, 144, 0.187);
+}
+
+.subt{
+    font-family: walkway;
+    font-size: 2em;
+}
+
+.txt-subt2{
+    margin-top: 20px;
+    color: black;
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.vid.acs{
+    margin-top: 100px;
+    width: 50%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.logo{
+    width: 8%;
+}
+
